@@ -1,40 +1,53 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# 🔄 Skill Swap Platform
 
-## Getting Started
+A mini full-stack web application that enables users to list their skills and request others in return. Users can find matching skill partners, send swap requests, and rate each other after a successful swap. Built using **Next.js**, **Clerk**, and **Tailwind CSS**.
 
-First, run the development server:
+---
+
+## 🌟 Features
+
+- 🔐 User Authentication (Sign up, Sign in, Logout) using Clerk
+- 📝 User Profiles with:
+  - Name, Location (optional), Profile Photo (optional)
+  - Skills Offered & Skills Wanted
+  - Availability (e.g., weekends, evenings)
+  - Privacy Toggle (Public / Private)
+- 🔍 Search Users by Skills
+- 🔁 Request & Accept Skill Swaps:
+  - Accept/Reject/Delete swap requests
+  - View pending/current swap requests
+- ⭐ Ratings & Feedback after a swap
+- 🛡 Admin Dashboard:
+  - Approve skills
+  - Ban users
+  - Send announcements
+  - Download user/swap/feedback reports
+
+---
+
+## 📸 Demo
+
+🔗 [https://www.loom.com/share/6330ba2126a84f8e88e568b09270ebc9](#) *(replace with your video link)*
+
+---
+
+## 🚀 Tech Stack
+
+| Layer      | Tech                     |
+|------------|--------------------------|
+| Frontend   | Next.js (Pages Router)   |
+| Styling    | Tailwind CSS + shadcn/ui |
+| Auth       | Clerk                    |
+| Backend    | Node.js + Express (or FastAPI) |
+| Database   | MongoDB |
+| Storage    | Cloudinary (for profile images) |
+
+---
+
+## ⚙️ Getting Started
+
+### 1. Clone the repo
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+git clone https://github.com/your-username/skill-swap-platform.git
+cd skill-swap-platform
