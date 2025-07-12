@@ -27,7 +27,7 @@ A mini full-stack web application that enables users to list their skills and re
 
 ## 📸 Demo
 
-🔗 [https://www.loom.com/share/6330ba2126a84f8e88e568b09270ebc9](#) *(replace with your video link)*
+🔗 [https://www.loom.com/share/6330ba2126a84f8e88e568b09270ebc9]
 
 ---
 
